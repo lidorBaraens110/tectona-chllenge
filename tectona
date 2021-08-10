@@ -1,0 +1,24 @@
+
+1.Please describe in a few sentences the MVC architecture.
+mvc
+Model-View-Controller
+
+It is a design pattern for software projects. The advantage of this is it helps in focusing on a specific part of the application
+divided into three interconnected parts: 
+Model - Model represents the structure of data, the format and the constraints with which it is stored.
+View - View is what is presented to the user. Views utilize the Model and present data in a form in which the user wants.
+Controller:Controller controls the requests of the user and then generates appropriate response which is fed to the viewer.
+
+
+3.Explain the difference (in Javascript) between "==" & "===" logical operators.
+x==y => Check if x is equal to y and does not consider the type
+'22' == 22 -> true
+'' == '0' -> false
+0=='' -> true
+
+x===y check the same like == but now the type is important too. (both must be of the same type)
+'22'===22 -> false 
+'' === '0' -> false
+0===false -> false
+0===0 -> true
+false===false ->true 
